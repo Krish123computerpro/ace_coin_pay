@@ -1,0 +1,47 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.left-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  width: 100%;
+  align-items: center;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.title p{
+  font-size: 50px;
+}
+.left-container img {
+  width: 350px;
+  height: 300px;
+}
+.left-container span {
+  font-weight: bolder;
+}
+.timer-color{
+  background-color: var(--blue);
+ color: var(--white);
+ border-radius: 2px;
+ padding: 4px 1px;
+ font-size: 50px;
+ margin-right: 5px;
+ align-items: center;
+}
