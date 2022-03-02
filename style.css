@@ -36,12 +36,12 @@ body {
 .left-container span {
   font-weight: bolder;
 }
-.timer-color{llll
+.timer-color{
   background-color: var(--blue);
  color: var(--white);
  border-radius: 2px;
  padding: 4px 1px;
  font-size: 50px;
- margin-right: 5px;l
+ margin-right: 5px;
  align-items: center; 
-} hel gggggggggg
+}
